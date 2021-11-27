@@ -1,0 +1,4 @@
+#tự test
+num = [2,46,354,124,12546,23]
+for x_counts in num:
+print('x' * x_counts)
