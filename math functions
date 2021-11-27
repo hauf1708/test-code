@@ -2,8 +2,16 @@
 x = 2.9
 print(abs(2.9))
 
-#2 : làm tròn số thập phân
+#2 : làm tròn số thập phân (= math.factorial)
 x = 2.9
 print(math.ceil(2.9))
 
-#3: More math functions : https://docs.python.org/3/library/math.html
+#3 :làm tròn trong chuỗi lặp
+x = [0.1, 0.1, 0.1]
+print (math.fsum(x))
+
+#4: làm tròn nhg chỉ định
+x = math.floor(1.6) 
+print(x)
+
+#5: More math functions : https://docs.python.org/3/library/math.html
