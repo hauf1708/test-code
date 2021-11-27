@@ -1,0 +1,11 @@
+#tự test
+Me = {
+    'name':'Hieu',
+    'age':'19',
+    'school':'VNU-IS',
+    'gender':'male',
+    'is_verified':True
+}
+print(Me['name'])
+ 
+#more dict methods: https://www.w3schools.com/python/python_dictionaries_methods.asp      
