@@ -1,0 +1,9 @@
+#write a program to remove the duplicate in a list
+num = [2,2,4,6,4,2,1,2]
+x = []
+for not_duplicate_num in num:
+    if not_duplicate_num not in x:
+        x.append(num)
+        print(x)
+        
+# more list method: https://www.w3schools.com/python/python_ref_list.asp
