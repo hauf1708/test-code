@@ -2,3 +2,11 @@
 num = [2,46,354,124,12546,23]
 for x_counts in num:
 print('x' * x_counts)
+
+#tự test 2
+num = [5,1,4,463,23534,6878]
+max = num[0]
+for x in num:
+    if x > max:
+    max = x
+print(max)    
