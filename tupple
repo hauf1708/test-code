@@ -1,0 +1,14 @@
+# dùng cho toạ độ
+coordinates = (1,2,3)
+#B1
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+#B2
+x,y,z = coordinates
+print(x)
+print(y)
+print(z)
+
+#tuple method 
+https://www.w3schools.com/python/python_tuples_methods.asp
